@@ -1,0 +1,37 @@
+
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:3;
+}
+
+body{
+
+    font-family:"微软雅黑";
+}
+
+p{  text-indent:0em;
+    font-size:15px;
+    color:#1F1F1F;
+}
+
+/*标题*/
+#title{
+
+    font-size:16px;
+}
+
+/* 来源和时间*/
+.source,.ptime{
+    font-size:10.5px;
+    color:#878787;
+    margin-bottom:-10px
+}
+
+/*图片*/
+img{
+    width:100%;
+/* 3px*/
+    padding-left:0px;
+}

@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E35DE3311D87CD43005CDD62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DE3301D87CD43005CDD62 /* main.m */; };
+		E35DE3341D87CD43005CDD62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DE3331D87CD43005CDD62 /* AppDelegate.m */; };
+		E35DE3371D87CD43005CDD62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DE3361D87CD43005CDD62 /* ViewController.m */; };
+		E35DE33A1D87CD43005CDD62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35DE3381D87CD43005CDD62 /* Main.storyboard */; };
+		E35DE33C1D87CD43005CDD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35DE33B1D87CD43005CDD62 /* Assets.xcassets */; };
+		E35DE33F1D87CD43005CDD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35DE33D1D87CD43005CDD62 /* LaunchScreen.storyboard */; };
+		E35DE34A1D87CD43005CDD62 /* js_iOS__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DE3491D87CD43005CDD62 /* js_iOS__Tests.m */; };
+		E35DE3551D87CD43005CDD62 /* js_iOS__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E35DE3541D87CD43005CDD62 /* js_iOS__UITests.m */; };
+		E35DE3631D87CD71005CDD62 /* news.css in Resources */ = {isa = PBXBuildFile; fileRef = E35DE3621D87CD71005CDD62 /* news.css */; };
+		E35DE3651D87CD77005CDD62 /* newss.js in Resources */ = {isa = PBXBuildFile; fileRef = E35DE3641D87CD77005CDD62 /* newss.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E35DE3461D87CD43005CDD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35DE3241D87CD43005CDD62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35DE32B1D87CD43005CDD62;
+			remoteInfo = "js与iOS交互";
+		};
+		E35DE3511D87CD43005CDD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35DE3241D87CD43005CDD62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35DE32B1D87CD43005CDD62;
+			remoteInfo = "js与iOS交互";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E35DE32C1D87CD43005CDD62 /* js与iOS交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "js与iOS交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35DE3301D87CD43005CDD62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E35DE3321D87CD43005CDD62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E35DE3331D87CD43005CDD62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E35DE3351D87CD43005CDD62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E35DE3361D87CD43005CDD62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E35DE3391D87CD43005CDD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E35DE33B1D87CD43005CDD62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E35DE33E1D87CD43005CDD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E35DE3401D87CD43005CDD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35DE3451D87CD43005CDD62 /* js与iOS交互Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "js与iOS交互Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35DE3491D87CD43005CDD62 /* js_iOS__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = js_iOS__Tests.m; sourceTree = "<group>"; };
+		E35DE34B1D87CD43005CDD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35DE3501D87CD43005CDD62 /* js与iOS交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "js与iOS交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35DE3541D87CD43005CDD62 /* js_iOS__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = js_iOS__UITests.m; sourceTree = "<group>"; };
+		E35DE3561D87CD43005CDD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35DE3621D87CD71005CDD62 /* news.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = news.css; sourceTree = "<group>"; };
+		E35DE3641D87CD77005CDD62 /* newss.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = newss.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35DE3291D87CD43005CDD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35DE3421D87CD43005CDD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35DE34D1D87CD43005CDD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E35DE3231D87CD43005CDD62 = {
+			isa = PBXGroup;
+			children = (
+				E35DE32E1D87CD43005CDD62 /* js与iOS交互 */,
+				E35DE3481D87CD43005CDD62 /* js与iOS交互Tests */,
+				E35DE3531D87CD43005CDD62 /* js与iOS交互UITests */,
+				E35DE32D1D87CD43005CDD62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E35DE32D1D87CD43005CDD62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35DE32C1D87CD43005CDD62 /* js与iOS交互.app */,
+				E35DE3451D87CD43005CDD62 /* js与iOS交互Tests.xctest */,
+				E35DE3501D87CD43005CDD62 /* js与iOS交互UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35DE32E1D87CD43005CDD62 /* js与iOS交互 */ = {
+			isa = PBXGroup;
+			children = (
+				E35DE3641D87CD77005CDD62 /* newss.js */,
+				E35DE3621D87CD71005CDD62 /* news.css */,
+				E35DE3321D87CD43005CDD62 /* AppDelegate.h */,
+				E35DE3331D87CD43005CDD62 /* AppDelegate.m */,
+				E35DE3351D87CD43005CDD62 /* ViewController.h */,
+				E35DE3361D87CD43005CDD62 /* ViewController.m */,
+				E35DE3381D87CD43005CDD62 /* Main.storyboard */,
+				E35DE33B1D87CD43005CDD62 /* Assets.xcassets */,
+				E35DE33D1D87CD43005CDD62 /* LaunchScreen.storyboard */,
+				E35DE3401D87CD43005CDD62 /* Info.plist */,
+				E35DE32F1D87CD43005CDD62 /* Supporting Files */,
+			);
+			path = "js与iOS交互";
+			sourceTree = "<group>";
+		};
+		E35DE32F1D87CD43005CDD62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35DE3301D87CD43005CDD62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E35DE3481D87CD43005CDD62 /* js与iOS交互Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E35DE3491D87CD43005CDD62 /* js_iOS__Tests.m */,
+				E35DE34B1D87CD43005CDD62 /* Info.plist */,
+			);
+			path = "js与iOS交互Tests";
+			sourceTree = "<group>";
+		};
+		E35DE3531D87CD43005CDD62 /* js与iOS交互UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E35DE3541D87CD43005CDD62 /* js_iOS__UITests.m */,
+				E35DE3561D87CD43005CDD62 /* Info.plist */,
+			);
+			path = "js与iOS交互UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35DE32B1D87CD43005CDD62 /* js与iOS交互 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35DE3591D87CD43005CDD62 /* Build configuration list for PBXNativeTarget "js与iOS交互" */;
+			buildPhases = (
+				E35DE3281D87CD43005CDD62 /* Sources */,
+				E35DE3291D87CD43005CDD62 /* Frameworks */,
+				E35DE32A1D87CD43005CDD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "js与iOS交互";
+			productName = "js与iOS交互";
+			productReference = E35DE32C1D87CD43005CDD62 /* js与iOS交互.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E35DE3441D87CD43005CDD62 /* js与iOS交互Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35DE35C1D87CD43005CDD62 /* Build configuration list for PBXNativeTarget "js与iOS交互Tests" */;
+			buildPhases = (
+				E35DE3411D87CD43005CDD62 /* Sources */,
+				E35DE3421D87CD43005CDD62 /* Frameworks */,
+				E35DE3431D87CD43005CDD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35DE3471D87CD43005CDD62 /* PBXTargetDependency */,
+			);
+			name = "js与iOS交互Tests";
+			productName = "js与iOS交互Tests";
+			productReference = E35DE3451D87CD43005CDD62 /* js与iOS交互Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E35DE34F1D87CD43005CDD62 /* js与iOS交互UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35DE35F1D87CD43005CDD62 /* Build configuration list for PBXNativeTarget "js与iOS交互UITests" */;
+			buildPhases = (
+				E35DE34C1D87CD43005CDD62 /* Sources */,
+				E35DE34D1D87CD43005CDD62 /* Frameworks */,
+				E35DE34E1D87CD43005CDD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35DE3521D87CD43005CDD62 /* PBXTargetDependency */,
+			);
+			name = "js与iOS交互UITests";
+			productName = "js与iOS交互UITests";
+			productReference = E35DE3501D87CD43005CDD62 /* js与iOS交互UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35DE3241D87CD43005CDD62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘小二";
+				TargetAttributes = {
+					E35DE32B1D87CD43005CDD62 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E35DE3441D87CD43005CDD62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E35DE32B1D87CD43005CDD62;
+					};
+					E35DE34F1D87CD43005CDD62 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E35DE32B1D87CD43005CDD62;
+					};
+				};
+			};
+			buildConfigurationList = E35DE3271D87CD43005CDD62 /* Build configuration list for PBXProject "js与iOS交互" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E35DE3231D87CD43005CDD62;
+			productRefGroup = E35DE32D1D87CD43005CDD62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35DE32B1D87CD43005CDD62 /* js与iOS交互 */,
+				E35DE3441D87CD43005CDD62 /* js与iOS交互Tests */,
+				E35DE34F1D87CD43005CDD62 /* js与iOS交互UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35DE32A1D87CD43005CDD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35DE3651D87CD77005CDD62 /* newss.js in Resources */,
+				E35DE3631D87CD71005CDD62 /* news.css in Resources */,
+				E35DE33F1D87CD43005CDD62 /* LaunchScreen.storyboard in Resources */,
+				E35DE33C1D87CD43005CDD62 /* Assets.xcassets in Resources */,
+				E35DE33A1D87CD43005CDD62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35DE3431D87CD43005CDD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35DE34E1D87CD43005CDD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35DE3281D87CD43005CDD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35DE3371D87CD43005CDD62 /* ViewController.m in Sources */,
+				E35DE3341D87CD43005CDD62 /* AppDelegate.m in Sources */,
+				E35DE3311D87CD43005CDD62 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35DE3411D87CD43005CDD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35DE34A1D87CD43005CDD62 /* js_iOS__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35DE34C1D87CD43005CDD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35DE3551D87CD43005CDD62 /* js_iOS__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E35DE3471D87CD43005CDD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35DE32B1D87CD43005CDD62 /* js与iOS交互 */;
+			targetProxy = E35DE3461D87CD43005CDD62 /* PBXContainerItemProxy */;
+		};
+		E35DE3521D87CD43005CDD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35DE32B1D87CD43005CDD62 /* js与iOS交互 */;
+			targetProxy = E35DE3511D87CD43005CDD62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E35DE3381D87CD43005CDD62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35DE3391D87CD43005CDD62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E35DE33D1D87CD43005CDD62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35DE33E1D87CD43005CDD62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35DE3571D87CD43005CDD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E35DE3581D87CD43005CDD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35DE35A1D87CD43005CDD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "js与iOS交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallTwo.js-iOS--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E35DE35B1D87CD43005CDD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "js与iOS交互/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallTwo.js-iOS--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E35DE35D1D87CD43005CDD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "js与iOS交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallTwo.js-iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/js与iOS交互.app/js与iOS交互";
+			};
+			name = Debug;
+		};
+		E35DE35E1D87CD43005CDD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "js与iOS交互Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallTwo.js-iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/js与iOS交互.app/js与iOS交互";
+			};
+			name = Release;
+		};
+		E35DE3601D87CD43005CDD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "js与iOS交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallTwo.js-iOS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "js与iOS交互";
+			};
+			name = Debug;
+		};
+		E35DE3611D87CD43005CDD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "js与iOS交互UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallTwo.js-iOS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "js与iOS交互";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35DE3271D87CD43005CDD62 /* Build configuration list for PBXProject "js与iOS交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35DE3571D87CD43005CDD62 /* Debug */,
+				E35DE3581D87CD43005CDD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35DE3591D87CD43005CDD62 /* Build configuration list for PBXNativeTarget "js与iOS交互" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35DE35A1D87CD43005CDD62 /* Debug */,
+				E35DE35B1D87CD43005CDD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35DE35C1D87CD43005CDD62 /* Build configuration list for PBXNativeTarget "js与iOS交互Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35DE35D1D87CD43005CDD62 /* Debug */,
+				E35DE35E1D87CD43005CDD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E35DE35F1D87CD43005CDD62 /* Build configuration list for PBXNativeTarget "js与iOS交互UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35DE3601D87CD43005CDD62 /* Debug */,
+				E35DE3611D87CD43005CDD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E35DE3241D87CD43005CDD62 /* Project object */;
+}
